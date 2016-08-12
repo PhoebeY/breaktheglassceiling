@@ -1200,9 +1200,9 @@ game.Level1to2Screen = {
         adol.setTextBounds(0, 200, 800, 100);
 
 
-        this.girl2 = this.game.add.sprite(400, 430, 'girl2');
-        this.girl2.anchor.setTo(0.5, 0.5);
-        this.girl2.scale.setTo(0.6);
+        // this.girl2 = this.game.add.sprite(400, 430, 'girl2');
+        // this.girl2.anchor.setTo(0.5, 0.5);
+        // this.girl2.scale.setTo(0.6);
 
 
         this.enemy = this.game.add.sprite(600, 430, 'enemy');
@@ -1262,27 +1262,27 @@ game.Level2to3Screen = {
         adol.setTextBounds(0, 200, 800, 100);
 
 
-        this.girl2 = this.game.add.sprite(400, 430, 'girl2');
-        this.girl2.anchor.setTo(0.5, 0.5);
-        this.girl2.scale.setTo(0.5);
+        // this.girl2 = this.game.add.sprite(400, 430, 'girl2');
+        // this.girl2.anchor.setTo(0.5, 0.5);
+        // this.girl2.scale.setTo(0.5);
 
 
-        this.enemy = this.game.add.sprite(550, 430, 'enemy');
+        this.enemy = this.game.add.sprite(500, 430, 'enemy');
         this.enemy.anchor.setTo(0.5, 0.5);
-        this.enemy.scale.setTo(0.3);
+        this.enemy.scale.setTo(0.32);
 
 
-        this.enemy2 = this.game.add.sprite(720, 430, 'enemy2');
+        this.enemy2 = this.game.add.sprite(700, 430, 'enemy2');
         this.enemy2.anchor.setTo(0.5, 0.5);
-        this.enemy2.scale.setTo(0.3);
+        this.enemy2.scale.setTo(0.32);
 
-        this.enemy3 = this.game.add.sprite(250, 430, 'enemy3');
+        this.enemy3 = this.game.add.sprite(300, 430, 'enemy3');
         this.enemy3.anchor.setTo(0.5, 0.5);
-        this.enemy3.scale.setTo(0.3);
+        this.enemy3.scale.setTo(0.32);
 
-        this.enemy4 = this.game.add.sprite(80, 430, 'enemy4');
+        this.enemy4 = this.game.add.sprite(100, 430, 'enemy4');
         this.enemy4.anchor.setTo(0.5, 0.5);
-        this.enemy4.scale.setTo(0.3);
+        this.enemy4.scale.setTo(0.32);
  
         // this.menu.inputEnabled = true; 
         //this.menu.events.onInputOver.add(listener, this);
@@ -1333,27 +1333,27 @@ game.Level3to4Screen = {
         adol.setTextBounds(0, 200, 800, 100);
 
 
-        this.girl4 = this.game.add.sprite(400, 430, 'girl4');
-        this.girl4.anchor.setTo(0.5, 0.5);
-        this.girl4.scale.setTo(0.5);
+        // this.girl4 = this.game.add.sprite(400, 430, 'girl4');
+        // this.girl4.anchor.setTo(0.5, 0.5);
+        // this.girl4.scale.setTo(0.5);
 
 
-        this.enemy = this.game.add.sprite(60, 430, 'enemy');
+        this.enemy = this.game.add.sprite(100, 430, 'enemy');
         this.enemy.anchor.setTo(0.5, 0.5);
         this.enemy.scale.setTo(0.3);
 
 
-        this.enemy2 = this.game.add.sprite(250, 430, 'enemy2');
+        this.enemy2 = this.game.add.sprite(300, 430, 'enemy2');
         this.enemy2.anchor.setTo(0.5, 0.5);
         this.enemy2.scale.setTo(0.3);
 
 
-        this.enemy3 = this.game.add.sprite(550, 430, 'enemy3');
+        this.enemy3 = this.game.add.sprite(500, 430, 'enemy3');
         this.enemy3.anchor.setTo(0.5, 0.5);
         this.enemy3.scale.setTo(0.3);
 
 
-        this.enemy4 = this.game.add.sprite(740, 430, 'enemy4');
+        this.enemy4 = this.game.add.sprite(700, 430, 'enemy4');
         this.enemy4.anchor.setTo(0.5, 0.5);
         this.enemy4.scale.setTo(0.3);
  
